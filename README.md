@@ -1,5 +1,5 @@
 # CCTalker: When Compensatory Control Theory Meets 3D Emotional Talking Head Animation
-The official repository of the paper [CCTalker: When Compensatory Control Theory Meets 3D Emotional Talking Head Animation](https://arxiv.org/abs/)
+The official repository of the paper [CCTalker: When Compensatory Control Theory Meets 3D Emotional Talking Head Animation]
 
 <p align='center'>
   <b>
