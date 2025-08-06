@@ -1,55 +1,71 @@
 # CCTalker: When Compensatory Control Theory Meets 3D Emotional Talking Head Animation
-The official repository of the paper [CCTalker: When Compensatory Control Theory Meets 3D Emotional Talking Head Animation]
 
-<p align='center'>
-  <b>
-    <a href="http://cv2025.github.io.bwbwiwn.site/">Project Page</a>
-    |
-    <a href="https://anonymous.4open.science/r/CCTalker-D626/README.md">Code</a> 
-  </b>
-</p> 
+![CCTalker Demo](https://raw.githubusercontent.com/rrusereeuser/nips25/main/paper_images/CCTalker.png)
 
-<!-- Colab notebook demonstration: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Egq0_ZK5sJAAawShxC0y4JRZQuVS2X-Z?usp=sharing) -->
+**Official Project Page:** [cv2025.github.io/bwbwiwn.site](http://cv2025.github.io.bwbwiwn.site/) • **Code (anonymous):** [4open.science/CCTalker-D626](https://anonymous.4open.science/r/CCTalker-D626/README.md)
 
-  <p align='center'>  
-    <img src='https://raw.githubusercontent.com/rrusereeuser/nips25/main/paper_images/CCTalker.png' width='1000'/>
-  </p>
+---
 
-Given a speech signal as input, our framework <strong>CCTalker</strong> can generate realistic 3D talking head animtions through the Compensatory Control Theory <strong>(CCT)</strong> based diffusion processes.
+## 🔍 Overview
 
-## Demos
-- Please click the Project Page.
+CCTalker is a diffusion-based framework for speech-driven 3D talking-head animation that integrates **Compensatory Control Theory (CCT)** to improve emotional expressivity and temporal coherence. Inspired by human self-regulation, CCTalker interprets animation artifacts (e.g., misalignments, abrupt motions) as "loss-of-control" events and applies three collaborative modules—each executing a full CCT loop—to restore order:
 
-## TODO
-- [x] **Release Arxiv paper.**
-- [x] **Release Project Page.**
-- [ ] **Release code. (Once the paper is accepted)**
-- [ ] **Release Pre-trained Model. (Once the paper is accepted)**
+1. **Control–Sense Modeling (CSM)**: Aligns frame-level emotion and audio control signals with mesh predictions, gating unexpected deviations.
+2. **Compensatory Dynamic Enhancement (CDE)**: Detects dynamic regions via vertex speed masks and applies high-frequency detail enhancement or low-frequency smoothing.
+3. **Information Order Modeling (IOM)**: Enforces cross-modal semantic alignment, causal temporal continuity, and physical plausibility across the full sequence.
 
+Together, these modules follow an **align → refine → integrate** flow, yielding smoother, more expressive 3D facial animations.
 
+## 🚀 Key Contributions
 
-## Citation	
+* **Psychology-Informed Paradigm**: First integration of CCT into 3D facial animation, bridging macro-level theory and micro-level operations.
+* **Unified Compensatory Modules**: Three self-contained CCT loops addressing emotional consistency, dynamic detail, and sequence coherence.
+* **State-of-the-Art Results**: Outperforms leading auto-regressive and diffusion-based baselines on the 3DMEAD and BIWI datasets.
+
+## 🎬 Demos
+
+Visit our [Project Page](http://cv2025.github.io.bwbwiwn.site/) for interactive videos showcasing CCTalker under various emotions and intensities.
+
+## 📦 Installation
+
+```bash
+# Clone repository
+
+# Install dependencies
+```
+*Note: Official code release pending paper acceptance.*
+
+## ⚙️ Usage
 
 ```
+1. **Prepare data**
+2. **Train model**
+3. **Inference**
+4. **Visualization**
+```
+*Note: Official code release pending paper acceptance.*
+
+## 📄 Citation
+
+If you find this work useful, please cite:
+
+```bibtex
 @article{2025cctalker,
   title={CCTalker: When Compensatory Control Theory Meets 3D Emotional Talking Head Animation},
-  author={},
+  author={Anonymous},
   year={2025},
-  eprint={},
   archivePrefix={arXiv},
   primaryClass={cs.CV}
 }
 ```
 
+## 🤝 Acknowledgements
 
-## Acknowledgement
-<!-- Some code are borrowed from following projects:
-* [ProbTalk3D](https://github.com/uuembodiedsocialai/ProbTalk3D/)
+Some components are based on the following open-source projects:
+
 * [FaceDiffuser](https://github.com/uuembodiedsocialai/FaceDiffuser)
- -->
+* Template inspired by [SyncTalk](https://github.com/ziqiaopeng/SyncTalk)
 
-The README.md template is borrowed from [SyncTalk](https://github.com/ziqiaopeng/SyncTalk)
+---
 
-
-Thanks for these great projects.
-
+*Developed by the CCTalker team. For questions or contributions, please open an issue.*
