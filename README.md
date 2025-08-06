@@ -37,11 +37,11 @@ Visit our [Project Page](http://cv2025.github.io.bwbwiwn.site/) for interactive 
 
 ## ⚙️ Usage
 
-```
-1. **Prepare data**
-2. **Train model**
-3. **Inference**
-4. **Visualization**
+```bash
+1. Prepare data
+2. Train model
+3. Inference
+4. Visualization
 ```
 *Note: Official code release pending paper acceptance.*
 
