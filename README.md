@@ -2,7 +2,7 @@
 
 ![CCTalker Demo](https://raw.githubusercontent.com/rrusereeuser/nips25/main/paper_images/CCTalker.png)
 
-**Official Project Page:** [cv2025.github.io/bwbwiwn.site](http://cv2025.github.io.bwbwiwn.site/) • **Code (anonymous):** [4open.science/CCTalker-D626](https://anonymous.4open.science/r/CCTalker-D626/README.md)
+**Official Project Page:** [cv2025.github.io/bwbwiwn.site](http://cv2025.github.io.bwbwiwn.site/) • **Code (anonymous):** [4open.science/CCTalker-D626](https://anonymous.4open.science/r/CCTalker-D626/)
 
 ---
 
